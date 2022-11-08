@@ -1,0 +1,51 @@
+{
+  "ground_01en": ["ground_02en", "ground_10en"],
+  "ground_02en": ["ground_01en", "ground_03en"],
+  "ground_03en": ["ground_02en", "ground_05en"],
+  "ground_04en": ["ground_05en", "ground_07en"],
+  "ground_05en": ["ground_03en", "ground_04en"],
+
+  "ground_07en": ["ground_04en", "ground_09en"],
+  "ground_08en": ["ground_09en", "ground_10en"],
+  "ground_09en": ["ground_07en", "ground_08en"],
+  "ground_10en": ["ground_08en", "ground_01en"],
+
+  "podium_02en": ["podium_03en", "podium_07en", "podium_04en"],
+  "podium_03en": ["podium_11en", "podium_02en", "podium_04en"],
+  "podium_04en": ["podium_03en", "podium_07en", "podium_02en", "podium_10en"],
+  "podium_05en": ["podium_14en"],
+  "podium_07en": ["podium_14en", "podium_10en", "podium_04en"],
+  "podium_08en": [
+    "podium_10en",
+    "podium_11en",
+    "podium_04en",
+    "podium_03en",
+    "podium_12en"
+  ],
+
+  "podium_10en": ["podium_08en", "podium_14en", "podium_03en"],
+  "podium_11en": ["podium_03en", "podium_10en", "podium_08en"],
+  "podium_12en": ["podium_13en", "podium_08en", "podium_14en"],
+  "podium_13en": ["podium_08en", "podium_12en"],
+  "podium_14en": ["podium_07en", "podium_12en", "podium_05en"],
+
+  "rooftop_01en": ["rooftop_12en", "rooftop_02en", "rooftop_04en"],
+  "rooftop_02en": ["rooftop_01en", "rooftop_03en"],
+  "rooftop_03en": ["rooftop_01en", "rooftop_02en", "rooftop_04en"],
+  "rooftop_04en": ["rooftop_01en", "rooftop_02en", "rooftop_05en"],
+  "rooftop_05en": ["rooftop_01en", "rooftop_04en", "rooftop_06en"],
+  "rooftop_06en": ["rooftop_05en", "rooftop_07en"],
+  "rooftop_07en": ["rooftop_06en"],
+
+  "rooftop_11en": ["rooftop_01en", "rooftop_12en"],
+  "rooftop_12en": ["rooftop_01en", "rooftop_11en", "rooftop_13en"],
+  "rooftop_13en": ["rooftop_12en", "rooftop_15en", "rooftop_14en"],
+  "rooftop_14en": ["rooftop_13en"],
+  "rooftop_15en": ["rooftop_13en"],
+
+  "rooftop_21en": ["rooftop_22en"],
+  "rooftop_22en": ["rooftop_21en", "rooftop_25en", "rooftop_23en"],
+  "rooftop_23en": ["rooftop_22en", "rooftop_24en"],
+  "rooftop_24en": ["rooftop_23en", "rooftop_25en"],
+  "rooftop_25en": ["rooftop_22en", "rooftop_24en"]
+}
